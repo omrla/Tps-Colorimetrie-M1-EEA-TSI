@@ -1,0 +1,22 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mexw64
+*.mexmaci64
+*.mlapp
+*.mlx
+*.slx.r*
+*.autosave
+*.mat
+slprj/
+*.slxc
+
+# Systeme
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/

@@ -1,10 +1,10 @@
 # Travaux Pratiques Colorimetrie - M1 EEA/TSI
 
-**Auteurs :** Omar Lamari & Az-eddine MAZID
-**Etablissement :** Universite de Bourgogne Europe
-**Filiere :** M1 EEA/TSI - 2025/2026
-**Enseignant responsable :** Lyes AKSAS
-**Logiciel :** MATLAB (pour TP1 et TP6)
+**Auteurs :** Omar Lamari & Az-eddine MAZID  
+**Etablissement :** Universite de Bourgogne Europe  
+**Filiere :** M1 EEA/TSI - 2025/2026  
+**Enseignant responsable :** Lyes AKSAS  
+**Logiciel :** MATLAB (pour TP1 et TP6)  
 
 ---
 

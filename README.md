@@ -25,7 +25,7 @@
 | **TP 5** | Mesure de brillance des objets | Lab (pas de code) | - |
 | **TP 6** | Conception d'un capteur couleur par dematricage | MATLAB | dossier `TP6_demosaicing_Bayer/` |
 
-> TP 2 (Metamerie) non inclus dans ce rapport. TP 7 (Acquisition image couleur) non realise.
+> TP 2 (Metamerie) et TP 7 (Acquisition image couleur) non realisés.
 
 ---
 

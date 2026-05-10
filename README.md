@@ -1,50 +1,50 @@
-# Travaux Pratiques Colorimetrie - M1 EEA/TSI
+# Travaux Pratiques Colorimétrie - M1 EEA/TSI
 
 **Auteurs :** Omar Lamari & Az-eddine MAZID  
-**Etablissement :** Universite de Bourgogne Europe  
-**Filiere :** M1 EEA/TSI - 2025/2026  
+**Établissement :** Université de Bourgogne Europe  
+**Filière :** M1 EEA/TSI - 2025/2026  
 **Enseignant responsable :** Lyes AKSAS  
 **Logiciel :** MATLAB (pour TP1 et TP6)  
 
 ---
 
-## Rapport et enonce
+## Rapport et énoncé
 
-- [Telecharger le rapport complet (PDF)](rapport/Rapport_TPs_Colorimetrie_LAMARI_MAZID.pdf)
-- [Telecharger le fascicule officiel (PDF)](rapport/Enonce_Colorimetrie_2024.pdf)
+- [Télécharger le rapport complet (PDF)](rapport/Rapport_TPs_Colorimetrie_LAMARI_MAZID.pdf)
+- [Télécharger le fascicule officiel (PDF)](rapport/Enonce_Colorimetrie_2024.pdf)
 
 ---
 
 ## Contenu du projet
 
-| TP | Theme | Type | Fichiers |
+| TP | Thème | Type | Fichiers |
 |----|-------|------|---------|
-| **TP 1** | Mesure colorimetrique de surface par photometrie | Lab + MATLAB | `TP1_Colorimetrie_LAMARI_MAZID.m` |
-| **TP 3** | Test de colorimetrie visuelle et cognitive | Lab (pas de code) | - |
+| **TP 1** | Mesure colorimétrique de surface par photométrie | Lab + MATLAB | `TP1_Colorimetrie_LAMARI_MAZID.m` |
+| **TP 3** | Test de colorimétrie visuelle et cognitive | Lab (pas de code) | - |
 | **TP 4** | Espace et manipulation des images couleur | Lab (pas de code) | - |
 | **TP 5** | Mesure de brillance des objets | Lab (pas de code) | - |
-| **TP 6** | Conception d'un capteur couleur par dematricage | MATLAB | dossier `TP6_demosaicing_Bayer/` |
+| **TP 6** | Conception d'un capteur couleur par dématricage | MATLAB | dossier `TP6_demosaicing_Bayer/` |
 
-> TP 2 (Metamerie) et TP 7 (Acquisition image couleur) non realisés.
+> TP 2 (Métamérie) et TP 7 (Acquisition image couleur) non réalisés.
 
 ---
 
-## Detail des TPs
+## Détail des TPs
 
-### TP 1 - Mesure colorimetrique de surface par photometrie
+### TP 1 - Mesure colorimétrique de surface par photométrie
 
-**Materiel utilise :**
-- Spectrophotometre sans contact **MINOLTA CS-1000**
-- Source lumineuse **Gammin plafonnier D65** (lumiere du jour)
-- Lampe a incandescence (illuminant A)
+**Matériel utilisé :**
+- Spectrophotomètre sans contact **MINOLTA CS-1000**
+- Source lumineuse **Gammin plafonnier D65** (lumière du jour)
+- Lampe à incandescence (illuminant A)
 - Mire **Macbeth ColorChecker**
-- Blanc Lambertien (reference de calibration)
+- Blanc Lambertien (référence de calibration)
 
 **Manipulations :**
-- Calibration du spectrophotometre sur le blanc Lambertien
-- Mesure des coordonnees **XYZ** et **L\*a\*b\*** de plusieurs pastilles du ColorChecker sous D65 puis sous illuminant A
+- Calibration du spectrophotomètre sur le blanc Lambertien
+- Mesure des coordonnées **XYZ** et **L\*a\*b\*** de plusieurs pastilles du ColorChecker sous D65 puis sous illuminant A
 - Calcul des valeurs RGB avec correction gamma (gamma = 2.2)
-- Evaluation des ecarts de couleur entre les deux sources selon la norme **CIE 1994**
+- Évaluation des écarts de couleur entre les deux sources selon la norme **CIE 1994**
 
 **Script MATLAB fourni (`TP1_Colorimetrie_LAMARI_MAZID.m`) :**
 - Saisie des valeurs X, Y, Z par l'utilisateur
@@ -62,28 +62,28 @@ B = rgb(3)^(1/2.2);
 
 ---
 
-### TP 3 - Test de colorimetrie visuelle et cognitive
+### TP 3 - Test de colorimétrie visuelle et cognitive
 
 Travaux pratiques en salle sans code informatique.
 
 **Manipulations :**
-- Classement visuel de couleurs sous differents eclairages (incandescence, blanc economique)
-- Observation du metamérisme avec couleur rouge standard et grise standard
+- Classement visuel de couleurs sous différents éclairages (incandescence, blanc économique)
+- Observation du métamérisme avec couleur rouge standard et grise standard
 - Classement avec variation du contraste
-- Analyse cognitive des perceptions colorees
+- Analyse cognitive des perceptions colorées
 
 ---
 
 ### TP 4 - Espace et manipulation des images couleur
 
-Travaux pratiques en salle (MATLAB utilise en seance, code non fourni dans ce depot).
+Travaux pratiques en salle (MATLAB utilisé en séance, code non fourni dans ce dépôt).
 
-**Themes abordes :**
-- Influence de la correction gamma sur les images numeriques
+**Thèmes abordés :**
+- Influence de la correction gamma sur les images numériques
 - Conversion vers l'espace **CMY** (Cyan, Magenta, Yellow)
 - Conversion vers l'espace **LHS** (Luminance, Hue, Saturation)
 - Calcul et analyse de l'histogramme
-- Fonctions de decorrelation
+- Fonctions de décorrélation
 - Fonctions d'illuminants et couleurs primaires
 
 ---
@@ -93,43 +93,43 @@ Travaux pratiques en salle (MATLAB utilise en seance, code non fourni dans ce de
 Travaux pratiques en salle sans code informatique.
 
 **Manipulations :**
-- Photo de nuit a Dijon - homogeneite de surface
-- Echantillons bois - meme materiau, couleurs differentes
-- Echantillons du catalogue GrettaMacbeth
-- Patchs gris (3C) - meme materiau, brillance variable
+- Photo de nuit à Dijon - homogénéité de surface
+- Échantillons bois - même matériau, couleurs différentes
+- Échantillons du catalogue GrettaMacbeth
+- Patchs gris (3C) - même matériau, brillance variable
 
 ---
 
-### TP 6 - Conception d'un capteur couleur par dematricage (dossier Gouton)
+### TP 6 - Conception d'un capteur couleur par dématricage (dossier Gouton)
 
 Simulation du pipeline d'acquisition d'un capteur d'image avec filtre de Bayer sous MATLAB.
 
-**Pipeline traite :**
+**Pipeline traité :**
 ```
-Image RGB originale -> Application du filtre Bayer (CFA) -> Demosaicing -> Reconstruction RGB
+Image RGB originale -> Application du filtre Bayer (CFA) -> Démosaicing -> Reconstruction RGB
 ```
 
-**Algorithmes de demosaicing testes :**
+**Algorithmes de démosaicing testés :**
 - GBRG, GRBG, BGGR, RGGB via la fonction MATLAB `demosaic`
 - Algorithme de Alleysson (`Random_demosai.m`)
-- Demosaicing manuel par interpolation bilineaire (`Dematricage.m`)
+- Démosaicing manuel par interpolation bilinéaire (`Dematricage.m`)
 
-**Metriques de qualite :**
-- Distance colorimetrique euclidienne (espace RGB)
-- Delta E76 (espace CIE Lab) - meilleure correlation perceptuelle
+**Métriques de qualité :**
+- Distance colorimétrique euclidienne (espace RGB)
+- Delta E76 (espace CIE Lab) - meilleure corrélation perceptuelle
 
-**Images de test utilisees :**
-- `Ima_phare.tif` - Image phare (reference principale)
+**Images de test utilisées :**
+- `Ima_phare.tif` - Image phare (référence principale)
 - `Maison.tif` - Image maison
-- `peppers.png` - Image poivrons (image de reference standard)
+- `peppers.png` - Image poivrons (image de référence standard)
 - `TestImage.jpg` - Image de test pour l'algorithme Alleysson
 
 **Interface graphique MATLAB :**
-- `GUI_Dematricage.m` / `GUI_Dematricage.fig` - GUI MATLAB GUIDE permettant de comparer visuellement les differentes methodes de demosaicing
+- `GUI_Dematricage.m` / `GUI_Dematricage.fig` - GUI MATLAB GUIDE permettant de comparer visuellement les différentes méthodes de démosaicing
 
 ---
 
-## Structure du depot
+## Structure du dépôt
 
 ```
 Tps-Colorimetrie-M1-EEA-TSI/
@@ -147,10 +147,10 @@ Tps-Colorimetrie-M1-EEA-TSI/
 |-- TP6_demosaicing_Bayer/
 |   |-- src/
 |   |   |-- TP6_colorimetrie.m      <- Script principal TP6
-|   |   |-- bayer.m                 <- Generation du filtre de Bayer
-|   |   |-- Dematricage.m           <- Demosaicing par interpolation bilineaire
+|   |   |-- bayer.m                 <- Génération du filtre de Bayer
+|   |   |-- Dematricage.m           <- Démosaicing par interpolation bilinéaire
 |   |   |-- CFAphare.m              <- Analyse CFA sur image phare
-|   |   |-- CFAphare_Modifier.m     <- Version modifiee de CFAphare
+|   |   |-- CFAphare_Modifier.m     <- Version modifiée de CFAphare
 |   |   |-- Ima_originale.m         <- Affichage image originale
 |   |   |-- Image_CFA.m             <- Fonction image CFA
 |   |   |-- la_A.m                  <- Fonction utilitaire
@@ -161,10 +161,10 @@ Tps-Colorimetrie-M1-EEA-TSI/
 |   |   |-- GUI_Dematricage.fig     <- Fichier GUI MATLAB GUIDE
 |   |
 |   |-- alleysson/
-|   |   |-- Random_demosai.m        <- Algorithme de demosaicing Alleysson
+|   |   |-- Random_demosai.m        <- Algorithme de démosaicing Alleysson
 |   |
 |   |-- images/
-|       |-- Ima_phare.tif           <- Image phare (reference)
+|       |-- Ima_phare.tif           <- Image phare (référence)
 |       |-- Maison.tif              <- Image maison
 |       |-- peppers.png             <- Image poivrons
 |       |-- TestImage.jpg           <- Image test Alleysson
@@ -187,7 +187,6 @@ run TP1_Colorimetrie_LAMARI_MAZID.m
 **Pour TP6 :**
 ```matlab
 cd TP6_demosaicing_Bayer/src
-% Ajouter le dossier images au path
 addpath('../images')
 run TP6_colorimetrie.m
 % Pour l'interface graphique :
